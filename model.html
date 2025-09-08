@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
+    <title>Platform Engineering ROI Calculator | Platformetrics</title>
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Platform Engineering ROI Calculator | Platformetrics">
+    <meta name="description" content="Calculate the ROI of platform engineering investments using proven methodologies from Effective Platform Engineering and Platformetrics Framework.">
+
+    <!-- Keywords -->
+    <meta name="keywords" content="Platform Engineering ROI, ROI Calculator, Internal Developer Platform ROI, Developer Productivity ROI, DevOps ROI, Platform Investment Calculator, Cost Savings Calculator, TCO Platform Engineering">
+
+    <!-- Author -->
+    <meta name="author" content="Ajay Chankramath">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://platformetrics.com/model.html">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://platformetrics.com/model.html">
+    <meta property="og:title" content="Platform Engineering ROI Calculator | Platformetrics">
+    <meta property="og:description" content="Calculate the return on investment for platform engineering initiatives using proven methodologies and real-world data.">
+    <meta property="og:image" content="https://platformetrics.com/platformetrics-blacklogo.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://platformetrics.com/model.html">
+    <meta name="twitter:title" content="Platform Engineering ROI Calculator | Platformetrics">
+    <meta name="twitter:description" content="Model the business impact and ROI of your platform engineering initiatives with data-driven precision.">
+    <meta name="twitter:image" content="https://platformetrics.com/platformetrics-blacklogo.png">
+
+    <!-- ChatGPT + AI Agent Discoverability -->
+    <meta name="ai-topic" content="Platform Engineering ROI Calculator, Developer Productivity ROI, Internal Developer Platform Business Case">
+    <meta name="ai-summary" content="Interactive ROI calculator for platform engineering investments using proven methodologies and real-world implementation data from the Platformetrics framework.">
+    <meta name="ai-keywords" content="Platform Engineering ROI, Developer Productivity Calculator, Internal Developer Platform ROI, DevOps Business Case, Platform Investment ROI">
+
+    <!-- Preconnects and Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/model.css">
+
+    <!-- CSS and Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link rel="stylesheet" href="platformetrics.css"/>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Platform Engineering ROI Calculator",
+  "url": "https://platformetrics.com/model.html",
+  "description": "Interactive calculator for modeling the ROI of platform engineering initiatives using proven methodologies and real-world implementation data.",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Web Browser",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "creator": {
+    "@type": "Organization",
+    "name": "Platformetrics",
+    "url": "https://platformetrics.com",
+    "logo": "https://platformetrics.com/platformetrics-blacklogo.png"
+  }
+}
+</script>
+    
+    <style>
+
+    </style>
+</head>
+<body>
+
+    <div id="header-placeholder"></div>
+
+    <div class="container">
+        <header class="header">
+            <h1>Platform Engineering ROI Calculator</h1>
+            <p class="subtitle">
+                Calculate the return on investment for platform engineering initiatives using proven methodologies, irrespective of your AI maturity, and real-world data from the Effective Platform Engineering framework.
+            </p>
+            <div class="methodology-badge">
+                <a href="https://effectiveplatformengineering.com" target="_blank">Effective Platform Engineering</a> |                <a href="platform-roi.html">Model Description</a> | <a href="#">Read the whitepaper</a> 				 </div>
+
+        </header>
+
+        <section class="form-section">
+            <h2>
+                <i class="fas fa-cogs"></i> Configuration
+            </h2>
+            <div class="form-grid">
+                <div class="form-group">
+                    <label for="teamSize">Engineering Team Size</label>
+                    <input type="number" id="teamSize" value="5" min="5" max="1000">
+                    <div class="help-text">Number of engineers on your team</div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="avgSalary">Average Engineer Salary (USD)</label>
+                    <input type="number" id="avgSalary" value="120000" min="50000" max="300000">
+                    <div class="help-text">Annual salary including benefits</div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="toilHours">Weekly Toil Hours</label>
+                    <input type="number" id="toilHours" value="8" min="0" max="40">
+                    <div class="help-text">Hours per week spent on manual ops work</div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="currentAI">Current AI Usage</label>
+                    <select id="currentAI">
+                        <option value="none">None</option>
+                        <option value="basic">Basic (GitHub Copilot)</option>
+                        <option value="advanced">Advanced (Cursor, Windsurf)</option>
+                        <option value="expert">Expert (AI-native workflow)</option>
+                    </select>
+                    <div class="help-text">Current level of AI tool adoption</div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="aiReadiness">Team AI Readiness</label>
+                    <select id="aiReadiness">
+                        <option value="low">Low</option>
+                        <option value="intermediate" selected>Intermediate</option>
+                        <option value="high">High</option>
+                        <option value="expert">Expert</option>
+                    </select>
+                    <div class="help-text">Team's ability to adopt new AI tools</div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="deployFreq">Deployment Frequency</label>
+                    <select id="deployFreq">
+                        <option value="monthly">Monthly</option>
+                        <option value="weekly" selected>Weekly</option>
+                        <option value="daily">Daily</option>
+                    </select>
+                    <div class="help-text">Current deployment cadence</div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="industry">Industry</label>
+                    <select id="industry">
+                        <option value="general" selected>General Technology</option>
+                        <option value="financial">Financial Services</option>
+                        <option value="healthcare">Healthcare</option>
+                        <option value="startup">Early Stage Startup</option>
+                    </select>
+                    <div class="help-text">Industry affects compliance requirements</div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="techDebt">Technical Debt Level</label>
+                    <select id="techDebt">
+                        <option value="low">Low</option>
+                        <option value="medium" selected>Medium</option>
+                        <option value="high">High</option>
+                        <option value="very-high">Very High</option>
+                    </select>
+                    <div class="help-text">Level of legacy technical debt</div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="timeHorizon">Analysis Period (Years)</label>
+                    <input type="number" id="timeHorizon" value="3" min="1" max="5">
+                    <div class="help-text">Time horizon for ROI analysis</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="results-section">
+            <div id="currentSituation" class="current-situation">
+                <!-- Dynamic content will be inserted here -->
+            </div>
+            
+            <div id="stackResults" class="stack-results">
+                <!-- Dynamic content will be inserted here -->
+            </div>
+        </section>
+
+        <!-- Charts: dynamically updated (lazy-loaded, stacked in rows) -->
+        <section id="charts" class="charts-section">
+            <h2 class="charts-title"><i class="fas fa-chart-line"></i> Visualizations</h2>
+            <p class="charts-subtitle">Charts mirror the ROI dynamics in the whitepaper—cumulative ROI, cumulative investments vs. returns, and cumulative net value. They update automatically as you change inputs.</p>
+
+            <table id="chartsTable" class="charts-table" role="presentation">
+                <tbody>
+                    <tr>
+                        <td id="charts-col-1" colspan="3">
+                            <div class="chart-card">
+                                <h3>ROI % over Time (Cumulative)</h3>
+                                <canvas id="roiOverTimeChart" height="120"></canvas>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="charts-col-2" colspan="3">
+                            <div class="chart-card">
+                                <h3>Total Investments vs Returns (&rarr; <span id="horizonLabel">3</span>-Year)</h3>
+                                <canvas id="investmentsReturnsChart" height="120"></canvas>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="charts-col-3" colspan="3">
+                            <div class="chart-card">
+                                <h3>Net Value Accumulation</h3>
+                                <canvas id="netValueChart" height="120"></canvas>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="methodology">
+            <div class="disclaimer">
+                <strong>Methodology Note:</strong> This calculator uses methodologies from "Effective Platform Engineering" and real implementation data. 
+                Results are estimates based on industry benchmarks and should be validated through pilot projects. Individual results may vary based on 
+                organizational context, execution quality, and team capabilities.
+            </div>
+        </section>
+
+	
+
+    </div>
+
+    <div id="footer-placeholder"></div>
+
+    <!-- Lazy-load model dynamic calculations -->        
+    <script src="js/model.js" defer></script>
+
+    <!-- Lazy-load charts inside container; sync colspan to table above -->    
+    <script src="js/charts.js" defer></script>    
+
+    <!-- Google Analytics (if using) -->
+    <script src="js/ga-loader.js" defer></script>
+    
+    <!-- Cookie Banner (if using) -->
+    <script src="js/cookie-banner.js"></script>
+
+</body>
+</html>
