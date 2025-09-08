@@ -11,12 +11,12 @@ The calculator is based on methodologies from the book *Effective Platform Engin
 
 ```text
 .
-├── model.html       # Main entry point – ROI calculator UI
-├── model.css        # Styling for the calculator
-├── model.js         # Core logic: ROI calculations & dynamic updates
-├── charts.js        # Chart rendering using Chart.js (lazy-loaded)
-├── header.html      # Placeholder for site header (loaded dynamically)
-├── footer.html      # Placeholder for site footer (loaded dynamically)
+├── model.html          # Main entry point – ROI calculator UI
+├── css/model.css       # Styling for the calculator
+├── js/model.js         # Core logic: ROI calculations & dynamic updates
+├── js/charts.js        # Chart rendering using Chart.js (lazy-loaded)
+├── xx/header.html      # Placeholder for site header (loaded dynamically)
+├── xx/footer.html      # Placeholder for site footer (loaded dynamically)
 ```
 
 ---
@@ -44,7 +44,7 @@ The calculator is based on methodologies from the book *Effective Platform Engin
 
 ---
 
-## 🧭 Architecture (ASCII)  
+## 🧭 Architecture 
 
 ```text
                  ┌────────────────────────────────────────────────┐
@@ -141,9 +141,9 @@ User Flow:
 
 ## 📚 References  
 
+- [Whitepaper () - Understanding the model, inside out.  
 - [Effective Platform Engineering](https://effectiveplatformengineering.com) – methodologies and frameworks behind this calculator.  
 - [Platformetrics](https://platformetrics.com) – ROI models, case studies, and consulting methodology.  
-- Industry benchmarks for developer productivity, AI adoption, and platform engineering economics.  
 
 ---
 
