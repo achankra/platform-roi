@@ -12,9 +12,9 @@ The calculator is based on methodologies from the book *Effective Platform Engin
 ```text
 .
 ├── model.html       # Main entry point – ROI calculator UI
-├── model.css        # Styling for the calculator
-├── model.js         # Core logic: ROI calculations & dynamic updates
-├── charts.js        # Chart rendering using Chart.js (lazy-loaded)
+├── css/model.css        # Styling for the calculator
+├── js/model.js         # Core logic: ROI calculations & dynamic updates
+├── js/charts.js        # Chart rendering using Chart.js (lazy-loaded)
 ├── header.html      # Placeholder for site header (loaded dynamically)
 ├── footer.html      # Placeholder for site footer (loaded dynamically)
 ```
