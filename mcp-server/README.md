@@ -159,6 +159,5 @@ MIT License - Same as your existing ROI calculator project.
 ## Support
 
 For questions about the MCP server implementation or ROI methodology, refer to:
-- [Platform Engineering Tools Directory](https://platformengineering.org/platform-tooling)
-- [Effective Platform Engineering](https://effectiveplatformengineering.com)
-- Your existing ROI calculator documentation
+- [Introduction to MCP Servers](https://dev.to/pavanbelagatti/model-context-protocol-mcp-101-a-hands-on-beginners-guide-47ho)
+- [Introducing MCP](https://effectiveplatformengineering.com](https://www.anthropic.com/news/model-context-protocol))
