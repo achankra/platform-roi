@@ -5,6 +5,9 @@ It allows organizations to model different platform strategies (Open Source, AI-
 
 The calculator is based on methodologies from the book *Effective Platform Engineering* and real-world implementation data from Platformetrics.  
 
+Don't want to use the hosted UI? [Platform ROI Model Live](https://platformetrics.com/platform-roi.html) 
+Want to run this on your Claude? Try our new [Platform ROI MCP server](https://github.com/achankra/platform-roi/tree/main/mcp-server)
+
 ---
 
 ## 📂 Project Structure  
